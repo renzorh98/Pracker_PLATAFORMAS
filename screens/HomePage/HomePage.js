@@ -42,7 +42,7 @@ const HomePage = (props) => {
     useEffect(() => {
         CheckIfLocationEnabled()
         GetCurrentLocation()
-    })
+    }) 
 
 
     if (flag) {
